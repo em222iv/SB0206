@@ -4,8 +4,10 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Foundation | Welcome</title>
-    <link rel="stylesheet" href="css/foundation.css" />
-    <script src="js/vendor/modernizr.js"></script>
+      <link rel="stylesheet" href="css/Style.css" />
+      <link rel="stylesheet" href="css/foundation.css" />
+      <link rel="stylesheet" href="css/responsive-tables.css">
+
   </head>
   <body>
 
@@ -15,10 +17,8 @@
       </div>
       <div class="large-9 columns">
           <ul class="right button-group">
-              <li><a href="#" class="button">Link </a></li>
-              <li><a href="#" class="button">Link 2</a></li>
-              <li><a href="#" class="button">Link 3</a></li>
-              <li><a href="#" class="button">Link 4</a></li>
+              <li><a href="http://localhost:63342/SB0206/index.html#" class="button">Schema </a></li>
+              <li><a href="#" class="button">Edit</a></li>
           </ul>
       </div>
   </div>
@@ -26,12 +26,18 @@
   <div class="row">
       <div class="large-12 columns">
           <div id="slider">
-              <img src="http://placehold.it/1000x400&text=[ img 1 ]"/>
+              <div class="row">
+                  <div class="range-slider round" data-slider="0" data-options="step:25;">
+                  <span class="range-slider-handle"></span>
+                  <span class="range-slider-active-segment"></span>
+                  <input type="hidden">
+              </div>
           </div>
-
-          <hr/>
+      </div>
+        <hr/>
       </div>
   </div>
+
 
   <div class="row">
       <div class="large-4 columns">
@@ -91,11 +97,16 @@
           </div>
       </div>
   </footer>
-  <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
+    <script src="js/vendor/modernizr.js"></script>
+    <script src="js/responsive-tables.js"></script>
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation/foundation.js"></script>
+    <script src="js/foundation/foundation.slider.js"></script>
+    <script src="js/SliderSettings.js"></script>
     <script>
       $(document).foundation();
     </script>
->>>>>>> master
   </body>
 </html>

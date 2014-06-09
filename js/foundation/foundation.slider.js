@@ -3,6 +3,7 @@
 
   Foundation.libs.slider = {
     name : 'slider',
+    valle : $('#slider').attr('data-slider'),
 
     version : '5.2.3',
 
@@ -178,6 +179,8 @@
       }
       self.reflow();
     },
+
+
 
     reflow : function() {
       var self = this;
