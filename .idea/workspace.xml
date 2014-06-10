@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6703e06-2979-42e4-8db4-77d13caf0a07" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/Style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/javascript/month.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SB0206.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,9 +31,31 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.31637716" vertical-offset="0" max-vertical-offset="1920">
-              <caret line="17" column="61" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
+            <state vertical-scroll-proportion="0.516129" vertical-offset="1864" max-vertical-offset="3195">
+              <caret line="152" column="61" selection-start-line="152" selection-start-column="61" selection-end-line="152" selection-end-column="61" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Style.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/Style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
+              <caret line="1" column="73" selection-start-line="1" selection-start-column="73" selection-end-line="1" selection-end-column="73" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="month.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/javascript/month.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
+              <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#50#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -48,10 +73,11 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/css/Style.css" />
         <option value="$PROJECT_DIR$/Pages/Edit.html" />
         <option value="$PROJECT_DIR$/js/foundation/foundation.slider.js" />
         <option value="$PROJECT_DIR$/js/SliderSettings.js" />
+        <option value="$PROJECT_DIR$/css/Style.css" />
+        <option value="$PROJECT_DIR$/js/javascript/month.js" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -117,6 +143,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SB0206" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SB0206" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascript" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SB0206" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SB0206" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -241,10 +299,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/Style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
+          <caret line="1" column="73" selection-start-line="1" selection-start-column="73" selection-end-line="1" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/javascript/month.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
+          <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#50#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31637716" vertical-offset="0" max-vertical-offset="1920">
-          <caret line="17" column="61" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
+        <state vertical-scroll-proportion="0.516129" vertical-offset="1864" max-vertical-offset="3195">
+          <caret line="152" column="61" selection-start-line="152" selection-start-column="61" selection-end-line="152" selection-end-column="61" />
           <folding />
         </state>
       </provider>
