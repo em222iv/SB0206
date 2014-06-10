@@ -2,66 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6703e06-2979-42e4-8db4-77d13caf0a07" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pages/Edit.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/Style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/app.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/forms.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/foundation.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/foundation.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/globals.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/grid.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/ie.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/mobile.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/normalize.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/orbit.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/responsive-tables.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/reveal.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/typography.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/ui.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/bg_hr.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/blacktocat.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icon_download.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/sprite_download.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/javascripts/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/javascripts/app.js.orig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/javascripts/forms.jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/javascripts/jquery.customforms.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/javascripts/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/javascripts/jquery.orbit-1.3.0.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/javascripts/jquery.placeholder.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/javascripts/jquery.reveal.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/javascripts/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/javascripts/modernizr.foundation.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/SliderSettings.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/foundation.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/foundation/foundation.abide.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/foundation/foundation.accordion.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/foundation/foundation.alert.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/foundation/foundation.clearing.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/foundation/foundation.dropdown.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/foundation/foundation.equalizer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/foundation/foundation.interchange.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/foundation/foundation.joyride.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/foundation/foundation.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/foundation/foundation.magellan.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/foundation/foundation.offcanvas.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/foundation/foundation.orbit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/foundation/foundation.reveal.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/foundation/foundation.slider.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/foundation/foundation.tab.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/foundation/foundation.tooltip.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/foundation/foundation.topbar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/responsive-tables.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/vendor/fastclick.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/vendor/jquery.cookie.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/vendor/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/vendor/modernizr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/vendor/placeholder.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stylesheets/pygment_trac.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stylesheets/stylesheet.css" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SB0206.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -87,8 +28,8 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.96277916" vertical-offset="214" max-vertical-offset="1920">
-              <caret line="66" column="15" selection-start-line="66" selection-start-column="15" selection-end-line="66" selection-end-column="15" />
+            <state vertical-scroll-proportion="0.31637716" vertical-offset="0" max-vertical-offset="1920">
+              <caret line="17" column="61" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -302,8 +243,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.96277916" vertical-offset="214" max-vertical-offset="1920">
-          <caret line="66" column="15" selection-start-line="66" selection-start-column="15" selection-end-line="66" selection-end-column="15" />
+        <state vertical-scroll-proportion="0.31637716" vertical-offset="0" max-vertical-offset="1920">
+          <caret line="17" column="61" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
           <folding />
         </state>
       </provider>
