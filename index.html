@@ -4,39 +4,72 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Foundation | Welcome</title>
-      <link rel="stylesheet" href="css/Style.css" />
-      <link rel="stylesheet" href="css/foundation.css" />
-      <link rel="stylesheet" href="css/responsive-tables.css">
-
+    <link rel="stylesheet" href="css/foundation.css" />
+    <script src="js/vendor/modernizr.js"></script>
   </head>
   <body>
-
   <div class="row">
       <div class="large-3 columns">
           <h1><img src="http://placehold.it/400x100&text=Logo"/></h1>
       </div>
       <div class="large-9 columns">
           <ul class="right button-group">
-              <li><a href="http://localhost:63342/SB0206/index.html#" class="button">Schema </a></li>
-              <li><a href="#" class="button">Edit</a></li>
+              <li><a href="#" class="button">Link 1</a></li>
+              <li><a href="#" class="button">Link 2</a></li>
+              <li><a href="#" class="button">Link 3</a></li>
+              <li><a href="#" class="button">Link 4</a></li>
           </ul>
       </div>
   </div>
 
+
+
   <div class="row">
       <div class="large-12 columns">
-          <div id="slider">
-              <div class="row">
-                  <div class="range-slider round" data-slider="0" data-options="step:25;">
-                  <span class="range-slider-handle"></span>
-                  <span class="range-slider-active-segment"></span>
-                  <input type="hidden">
-              </div>
-          </div>
-      </div>
-        <hr/>
+          <dl class="accordion" data-accordion>
+              <dd>
+                  <a href="#panel1">Accordion 1</a>
+                  <div id="panel1" class="content active">
+                      <dl class="tabs" data-tab>
+                          <dd class="active"><a href="#panel2-1">Tab 1</a></dd>
+                          <dd><a href="#panel2-2">Tab 2</a></dd>
+                          <dd><a href="#panel2-3">Tab 3</a></dd>
+                          <dd><a href="#panel2-4">Tab 4</a></dd>
+                      </dl>
+                      <div class="tabs-content">
+                          <div class="content active" id="panel2-1">
+                              <p>First panel content goes here...</p>
+                          </div>
+                          <div class="content" id="panel2-2">
+                              <p>Second panel content goes here...</p>
+                          </div>
+                          <div class="content" id="panel2-3">
+                              <p>Third panel content goes here...</p>
+                          </div>
+                          <div class="content" id="panel2-4">
+                              <p>Fourth panel content goes here...</p>
+                          </div>
+                      </div>
+                  </div>
+              </dd>
+              <dd>
+                  <a href="#panel2">Accordion 2</a>
+                  <div id="panel2" class="content">
+                      Panel 2. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  </div>
+              </dd>
+              <dd>
+                  <a href="#panel3">Accordion 3</a>
+                  <div id="panel3" class="content">
+                      Panel 3. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  </div>
+              </dd>
+          </dl>
+
+          <hr/>
       </div>
   </div>
+
 
 
   <div class="row">
@@ -79,32 +112,9 @@
 
       </div>
   </div>
-  <footer class="row">
-      <div class="large-12 columns">
-          <hr/>
-          <div class="row">
-              <div class="large-6 columns">
-                  <p>© Copyright no one at all. Go to town.</p>
-              </div>
-              <div class="large-6 columns">
-                  <ul class="inline-list right">
-                      <li><a href="#">Link 1</a></li>
-                      <li><a href="#">Link 2</a></li>
-                      <li><a href="#">Link 3</a></li>
-                      <li><a href="#">Link 4</a></li>
-                  </ul>
-              </div>
-          </div>
-      </div>
-  </footer>
+
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
-    <script src="js/vendor/modernizr.js"></script>
-    <script src="js/responsive-tables.js"></script>
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/foundation/foundation.js"></script>
-    <script src="js/foundation/foundation.slider.js"></script>
-    <script src="js/SliderSettings.js"></script>
     <script>
       $(document).foundation();
     </script>
