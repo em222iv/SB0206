@@ -5,7 +5,7 @@ var months = {
     monthArray : [],
     currentMonth : 0,
     d : new Date(),
-    n : 0,
+    n : null,
     week : null
 }
 function months() {
@@ -30,10 +30,10 @@ function MonthsOfTheYear() {
     returnMonth();
 }
 function returnMonth() {
-    var week = months.monthArray[months.n];
+    var presentMonth = months.monthArray[months.n];
     var monthDiv = document.getElementById("Month");
 
-    monthDiv.innerHTML = week;
+    monthDiv.innerHTML = presentMonth;
 }
 
 
