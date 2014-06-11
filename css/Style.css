@@ -1,11 +1,10 @@
 #Month{
     font-family: 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif;
     font-size: xx-large;
-    padding-left:45%;
+    padding-left:42%;
 }
 .right.button-group{
-    padding-right: 2%;
-    padding-top:1%;
+    padding-top:2%;
 }
 .step.fi-plus.size-72{
     padding-right: 2%;
