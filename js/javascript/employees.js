@@ -7,7 +7,10 @@ var employees = {
     e : null,
     aTagArray : [],
     addWorkerToWeekDay : document.getElementById('edit-monday1add'),
-    removeWorkerFromWeekDay : document.getElementById('edit-monday1remove')
+    removeWorkerFromWeekDay : document.getElementById('edit-monday1remove'),
+    removedFromAdd : null,
+    removedFromRemove : null,
+    clicked : null
 }
 
 function employed() {
@@ -37,33 +40,37 @@ function appendEmplyees() {
 
         employees.addWorkerToWeekDay.appendChild(a);
         a.innerHTML = employees.e.toString();
-
     });
     clickedEmployee();
 }
 
-function clickedEmployee(aTagNumber) {
+function clickedEmployee() {
     $('#edit-monday1add').on('click', function(e) {
 
-        $("a").click(function(event) {
-            var clickedTag = event.target.id;
-            addWorker(clickedTag);
-        });
+
+        employees.clicked = event.target.id;
+        addWorker(employees.clicked);
+        console.log('clicked1')
+
     });
     $('#edit-monday1remove').on('click', function(e) {
 
-        $("a").click(function(event) {
-            var clickedTag = event.target.id;
-            removeWorker(clickedTag);
-        });
+
+            employees.clicked = e.target.id;
+            removeWorker(employees.clicked);
+            console.log('clicked2')
+
     });
 }
-function addWorker(clickedTag) {
-    $( "#" + clickedTag ).remove();
-    employees.removeWorkerFromWeekDay.appendChild();
+function addWorker(clicked) {
+    employees.removedFromAdd = $( "#" + clicked ).remove();
+    $( "#edit-monday1remove" ).append( employees.removedFromAdd );
 };
 
-function removeWorker() {
+function removeWorker(clicked) {
+    employees.removedFromRemove = $( "#" + clicked ).remove();
+    $( "#edit-monday1add" ).append( employees.removedFromRemove );
+
 
 };
 
