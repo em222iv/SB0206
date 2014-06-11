@@ -25,10 +25,8 @@ function appendEmplyees() {
         aTagCounter++;
         employees.e = employee;
         var a = document.createElement('a');
-        a.setAttribute('class','small-1 columns');
-
-        var aTagNumber = a.setAttribute('id', 'aTag' + aTagCounter);;
-
+        a.setAttribute('class','large-1 columns');
+        a.setAttribute('id', 'aTag' + aTagCounter);;
 
         employees.aTagArray.push('aTag' + aTagCounter);
 
