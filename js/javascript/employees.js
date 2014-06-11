@@ -5,32 +5,37 @@ var employees = {
     employeeArray : [],
     workingArraysArray : [],
     e : null,
-    aTagArray : []
+    aTagArray : [],
+    addWorkerToWeekDay : document.getElementById('edit-monday1add'),
+    removeWorkerFromWeekDay : document.getElementById('edit-monday1remove')
 }
 
 function employed() {
-    employees.employeeArray[0] = "Stefan Snyting";
-    employees.employeeArray[1] = "Michaela Gladersson";
-    employees.employeeArray[2] = "Alfonso Blomma";
-    employees.employeeArray[3] = "Malin Vikings";
-    employees.employeeArray[4] = "Ers majestät";
-    employees.employeeArray[5] = "Hermione Telefongluttare";
+    employees.employeeArray[0] = "Stefan Snyting" + '<hr>';
+    employees.employeeArray[1] = "Mickis "+ '<hr>';
+    employees.employeeArray[2] = "Alfonso Blomma"+ '<hr>';
+    employees.employeeArray[3] = "Malin Cederlöf"+ '<hr>';
+    employees.employeeArray[4] = "Teresia Lindgren"+ '<hr>';
+    employees.employeeArray[5] = "Malin Falk"+ '<hr>';
+    employees.employeeArray[6] = "Anna Norstedt"+ '<hr>';
+    employees.employeeArray[7] = "Jenny Junkovic"+ '<hr>';
+    employees.employeeArray[8] = "Lisbeth Castro"+ '<hr>';
 
     appendEmplyees();
 }
+
 function appendEmplyees() {
-    var weekDiv = document.getElementById('edit-monday1add');
     var aTagCounter = 0;
     employees.employeeArray.forEach(function(employee) {
         aTagCounter++;
         employees.e = employee;
         var a = document.createElement('a');
-        a.setAttribute('class','large-1 columns');
+        a.setAttribute('class','large-2 columns');
         a.setAttribute('id', 'aTag' + aTagCounter);;
 
         employees.aTagArray.push('aTag' + aTagCounter);
 
-        weekDiv.appendChild(a);
+        employees.addWorkerToWeekDay.appendChild(a);
         a.innerHTML = employees.e.toString();
 
     });
@@ -55,6 +60,7 @@ function clickedEmployee(aTagNumber) {
 }
 function addWorker(clickedTag) {
     $( "#" + clickedTag ).remove();
+    employees.removeWorkerFromWeekDay.appendChild();
 };
 
 function removeWorker() {
