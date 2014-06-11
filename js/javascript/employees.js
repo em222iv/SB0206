@@ -12,7 +12,8 @@ var employees = {
     clicked : null,
     panel : null,
     day : null,
-    korv : null
+    dd : null,
+    activeDd : null
 }
 
 function employed() {
@@ -93,8 +94,11 @@ function checkActivePanel() {
 
 function checkActiveDay() {
 
+    employees.dd = $(".tabs").find(".active");
 
-  
+
+    //employees.korv = employees.day.getAttribute('class') === 'active';
+
     /* var dayCounter = 0;
      var emp = employees.panel.getAttribute('id');
 
