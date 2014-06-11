@@ -3,14 +3,16 @@
  */
 var employees = {
     employeeArray : [],
-    workingArraysArray : [],
     e : null,
     aTagArray : [],
     addWorkerToWeekDay : document.getElementById('edit-monday1add'),
     removeWorkerFromWeekDay : document.getElementById('edit-monday1remove'),
     removedFromAdd : null,
     removedFromRemove : null,
-    clicked : null
+    clicked : null,
+    panel : null,
+    day : null,
+    korv : null
 }
 
 function employed() {
@@ -33,7 +35,7 @@ function appendEmplyees() {
         aTagCounter++;
         employees.e = employee;
         var a = document.createElement('a');
-        a.setAttribute('class','large-2 columns');
+        a.setAttribute('class','large-2');
         a.setAttribute('id', 'aTag' + aTagCounter);;
 
         employees.aTagArray.push('aTag' + aTagCounter);
@@ -46,32 +48,69 @@ function appendEmplyees() {
 
 function clickedEmployee() {
     $('#edit-monday1add').on('click', function(e) {
-
-
-        employees.clicked = event.target.id;
-        addWorker(employees.clicked);
-        console.log('clicked1')
-
+        console.log(e.target.id);
+        var dive = "#edit-monday1add"
+        if(e.target.id == "edit-monday1add"){
+            //ingenting händer
+        }else {
+            employees.clicked = event.target.id;
+            addWorker(employees.clicked);
+        }
     });
     $('#edit-monday1remove').on('click', function(e) {
-
-
+        if(e.target.id == "edit-monday1remove"){
+            //ingenting händer
+        }else {
             employees.clicked = e.target.id;
-            removeWorker(employees.clicked);
-            console.log('clicked2')
-
+            Workers(employees.clicked);
+        }
     });
 }
 function addWorker(clicked) {
     employees.removedFromAdd = $( "#" + clicked ).remove();
     $( "#edit-monday1remove" ).append( employees.removedFromAdd );
+    checkActivePanel();
 };
 
-function removeWorker(clicked) {
+function Workers(clicked) {
     employees.removedFromRemove = $( "#" + clicked ).remove();
     $( "#edit-monday1add" ).append( employees.removedFromRemove );
 
-
 };
+
+function checkActivePanel() {
+    var panelCounter = 0;
+    for (var i = 0; i < 4; i++) {
+        panelCounter++;
+        employees.panel = $("#panel" + panelCounter)[ 0 ];
+        if (employees.panel.getAttribute('class') === 'content active') {
+
+            checkActiveDay();
+            break;
+        }
+    }
+}
+
+function checkActiveDay() {
+
+
+  
+    /* var dayCounter = 0;
+     var emp = employees.panel.getAttribute('id');
+
+     for (var i = 0; i < 6; i++) {
+         dayCounter++;
+
+         employees.day = $("#" + emp + '-' + dayCounter)[ 0 ];
+         console.log(employees.day);
+
+         if (employees.day.getAttribute('class') === 'active') {
+             console.log('fucking SUCCESS');
+         }
+     }*/
+
+}
+
+
 
 window.onload = employed();
