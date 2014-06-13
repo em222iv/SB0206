@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6703e06-2979-42e4-8db4-77d13caf0a07" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/javascript/presentWorkers.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/javascript/workingArrays.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/Edit.html" afterPath="$PROJECT_DIR$/pages/Edit.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/javascript/employees.js" afterPath="$PROJECT_DIR$/js/javascript/employees.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SB0206.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,8 +33,8 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.875" vertical-offset="255" max-vertical-offset="3300">
-              <caret line="36" column="21" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="21" />
+            <state vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="3330">
+              <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -38,9 +43,21 @@
       <file leaf-file-name="Edit.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/Edit.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.3" vertical-offset="195" max-vertical-offset="3435">
-              <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+            <state vertical-scroll-proportion="-16.8" vertical-offset="315" max-vertical-offset="3780">
+              <caret line="77" column="48" selection-start-line="77" selection-start-column="33" selection-end-line="77" selection-end-column="48" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="presentWorkers.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/javascript/presentWorkers.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="870">
+              <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#50#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -48,19 +65,21 @@
       <file leaf-file-name="employees.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/javascript/employees.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6619217" vertical-offset="897" max-vertical-offset="1875">
-              <caret line="97" column="0" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+            <state vertical-scroll-proportion="4.388005" vertical-offset="435" max-vertical-offset="6150">
+              <caret line="268" column="80" selection-start-line="268" selection-start-column="57" selection-end-line="268" selection-end-column="80" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="month.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/javascript/month.js">
+      <file leaf-file-name="workingArrays.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/javascript/workingArrays.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690">
-              <caret line="35" column="12" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="12" />
-              <folding />
+            <state vertical-scroll-proportion="-19.307692" vertical-offset="23" max-vertical-offset="870">
+              <caret line="37" column="49" selection-start-line="37" selection-start-column="3" selection-end-line="37" selection-end-column="49" />
+              <folding>
+                <element signature="e#0#50#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -93,10 +112,13 @@
         <option value="$PROJECT_DIR$/js/SliderSettings.js" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/js/javascript/month.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/Style.css" />
-        <option value="$PROJECT_DIR$/pages/Edit.html" />
+        <option value="$PROJECT_DIR$/js/javascript/addWorkersToArrays.js" />
         <option value="$PROJECT_DIR$/js/javascript/employees.js" />
+        <option value="$PROJECT_DIR$/pages/Edit.html" />
+        <option value="$PROJECT_DIR$/js/javascript/workingArrays.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/javascript/presentWorkers.js" />
       </list>
     </option>
   </component>
@@ -421,31 +443,51 @@
     <entry file="file://$PROJECT_DIR$/js/javascript/month.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690">
-          <caret line="35" column="12" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.875" vertical-offset="255" max-vertical-offset="3300">
-          <caret line="36" column="21" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="21" />
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="9" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/Edit.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.3" vertical-offset="195" max-vertical-offset="3435">
-          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+        <state vertical-scroll-proportion="-16.8" vertical-offset="315" max-vertical-offset="3780">
+          <caret line="77" column="48" selection-start-line="77" selection-start-column="33" selection-end-line="77" selection-end-column="48" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="3330">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/javascript/presentWorkers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="870">
+          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#50#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/javascript/workingArrays.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.307692" vertical-offset="23" max-vertical-offset="870">
+          <caret line="37" column="49" selection-start-line="37" selection-start-column="3" selection-end-line="37" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#50#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/javascript/employees.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6619217" vertical-offset="897" max-vertical-offset="1875">
-          <caret line="97" column="0" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+        <state vertical-scroll-proportion="4.388005" vertical-offset="435" max-vertical-offset="6150">
+          <caret line="268" column="80" selection-start-line="268" selection-start-column="57" selection-end-line="268" selection-end-column="80" />
           <folding />
         </state>
       </provider>
